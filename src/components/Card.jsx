@@ -43,7 +43,6 @@ const Container = styled.div`
   color: ${neutral100};
   width: 300px;
   height: 100px;
-
   margin: auto;
   background-image: url(${(props) => props.img});
   padding: 10rem 0 0;
