@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { timelineItems } from "../data";
 const Container = styled.div`
+overflow: hidden;
   padding-top: 80px;
   background: #303841;
   @media only screen and (max-width:480px) { 

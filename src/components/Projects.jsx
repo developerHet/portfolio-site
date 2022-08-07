@@ -7,6 +7,7 @@ const Container = styled.div`
   background: #eeeeee;
   //background-image: url(${CurveOne});
   position: relative;
+  overflow: hidden;
   padding: 20px 0 60px 0px;
   @media only screen and (max-width: 480px) {
     padding: 20px 0px 60px 0px;

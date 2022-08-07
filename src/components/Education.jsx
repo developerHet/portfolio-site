@@ -5,7 +5,7 @@ import { educationDetails } from "../data";
 const Container = styled.div`
   padding-top: 80px;
   background: #eeeeee;
-
+  overflow: hidden;
   @media only screen and (max-width: 480px) {
     padding: 50px 10px 0px 10px;
   }

@@ -12,6 +12,7 @@ const Container = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: row;
+  overflow: hidden;
   justify-content: space-around;
   align-items: center;
   color: #eeeeee;

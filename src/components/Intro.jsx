@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
+  overflow: hidden;
   justify-content: space-evenly;
   padding: 20px;
   align-items: center;
