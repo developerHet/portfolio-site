@@ -182,7 +182,7 @@ const Intro = () => {
         <TextDiv>
           <Heading>Hello, Nice to have you here!</Heading>
           <P>
-            Hey there, I’m Het Patel, a Full Stack Developer pursuing my
+            I’m Het Patel, a Full Stack Developer pursuing my
             graduation in computer science and engineering with a specialization
             in cyber security. I enjoy debugging problems. Whether it's finding
             the most elegant way to write a line of code or figuring out which

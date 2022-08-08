@@ -295,15 +295,15 @@ const Contact = () => {
         <Left>
         <Message>Swing by for a cup of ☕, or leave me a note:</Message>
         <SocialIcons>
-            <Icon><EmailIcon /></Icon>
+            <Icon href='mailto:hetpatel2312.hp@gmail.com'><EmailIcon /></Icon>
             <UserName>/hetpatel2312.hp@gmail.com</UserName>
         </SocialIcons>
         <SocialIcons>
-            <Icon><LinkedInIcon /></Icon>
-            <UserName>/in/hetpatel2312</UserName>
+            <Icon href='https://www.linkedin.com/in/hetpatel2312/'><LinkedInIcon /></Icon>
+            <UserName >/in/hetpatel2312</UserName>
         </SocialIcons>
         <SocialIcons>
-            <Icon><GitHubIcon /></Icon>
+            <Icon  href='https://github.com/developerHet'><GitHubIcon /></Icon>
             <UserName>/developerHet</UserName>
         </SocialIcons>
     </Left>

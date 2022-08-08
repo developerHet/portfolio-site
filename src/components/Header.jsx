@@ -155,21 +155,21 @@ const floatIcon = keyframes`
 }
 `;
 
-const IconOne = styled.div`
+const IconOne = styled.a`
   position: absolute;
   left: 13%;
   top: 17%;
   animation: ${floatIcon} 4s ease-in-out infinite;
 `;
 
-const IconTwo = styled.div`
+const IconTwo = styled.a`
   position: absolute;
   left: 13%;
   bottom: 10%;
   animation: ${floatIcon} 4s ease-in-out infinite;
 `;
 
-const IconThree = styled.div`
+const IconThree = styled.a`
   position: absolute;
   right: 0%;
   top: 45%;
@@ -282,7 +282,8 @@ const Header = () => {
         <Right>
           <ProfileBlob />
           {/* <IconContainer> */}
-          <IconOne>
+          
+          <IconOne href='https://www.linkedin.com/in/hetpatel2312/'>
             <Icon bColor="#0072b1" sColor="#EEEEEE">
               <ToolTip>LinkedIn</ToolTip>
               <IconSpan>
@@ -290,7 +291,8 @@ const Header = () => {
               </IconSpan>
             </Icon>
           </IconOne>
-          <IconTwo>
+          
+          <IconTwo href='https://github.com/developerHet'>
             <Icon bColor="#171515" sColor="#EEEEEE">
               <ToolTip>GitHub</ToolTip>
               <IconSpan>
@@ -298,7 +300,7 @@ const Header = () => {
               </IconSpan>
             </Icon>
           </IconTwo>
-          <IconThree>
+          <IconThree href="https://leetcode.com/het_patel/">
             <Icon bColor="#f89f1b" sColor="#EEEEEE">
               <ToolTip>LeetCode</ToolTip>
               <IconSpan>
