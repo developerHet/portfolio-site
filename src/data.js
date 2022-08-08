@@ -11,7 +11,7 @@ export const sliderItems = [
     {
       id: 2,
       title: "ToDo List",
-      img: "/imgs/ToDoList.png",
+      img: "/imgs/ToDoListMain.png",
       desc: "User can keep track of the task to be done.",
       link: "https://polar-chamber-40112.herokuapp.com/",
     },
@@ -22,12 +22,12 @@ export const sliderItems = [
       desc: "To keep user updated with new movies and web series.",
       link: "https://developerhet.github.io/movie-fetch-site/",
     },
-    {
-      id: 4,
-      title: "Het Patel 4",
-      img: "https://images.pexels.com/photos/221433/pexels-photo-221433.jpeg",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-    },
+    // {
+    //   id: 4,
+    //   title: "Het Patel 4",
+    //   img: "https://images.pexels.com/photos/221433/pexels-photo-221433.jpeg",
+    //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    // },
     // {
     //   id: 5,
     //   title: "Het Patel 5",
@@ -40,15 +40,15 @@ export const sliderItems = [
   export const timelineItems = [
     {
       id: 1,
-      title: "Het Patel 1",
-      date: "2016",
-      desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, magnam veritatis. Expedita, nihil! Ex quia aspernatur nemo sapiente dicta dignissimos quaerat laborum officiis.",
+      title: "Freelancer",
+      date: "2021-Current",
+      desc:"I perform a freelancing job on Fiverr. I am a level one seller on that marketplace with 5-⭐ ratings.",
     },
     {
       id: 2,
-      title: "Het Patel 2",
-      date: "2017",
-      desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, magnam veritatis. Expedita, nihil! Ex quia aspernatur nemo sapiente dicta dignissimos quaerat laborum officiis.",
+      title: "Movie Streaming App",
+      date: "2019-2020",
+      desc:"I worked as an intern in a movie streaming application.",
     },
     // {
     //   id: 3,
