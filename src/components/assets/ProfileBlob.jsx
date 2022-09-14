@@ -1,5 +1,4 @@
 import React from "react";
-
 const ProfileBlob = () => {
   return (
     <svg
@@ -24,16 +23,16 @@ const ProfileBlob = () => {
         />
       </g>
       <image
-      x="190"
-      y="280"
-          width="60%"
-          height="60%"
+      x="80"
+      y="80"
+          width="80%"
+          height="80%"
           preserveAspectRatio="xMinYMin slice"
-          xlinkHref="https://www.bootdey.com/img/Content/avatar/avatar7.png"
+          xlinkHref="/imgs/myProfile.jpg"
           clip-path="url(#shape)"
         />
     </svg>
   );
 };
-
+//https://www.bootdey.com/img/Content/avatar/avatar7.png
 export default ProfileBlob;
