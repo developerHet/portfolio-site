@@ -1,6 +1,12 @@
 
 
 export const sliderItems = [
+  {
+    id: 4,
+    title: "E-commerce",
+    img: "/imgs/Ecommerce.png",
+    desc: "Ecommerce site with attractive design along with backend.",
+   },
     {
       id: 1,
       title: "Keeper App",
@@ -22,12 +28,6 @@ export const sliderItems = [
       desc: "To keep user updated with new movies and web series.",
       link: "https://developerhet.github.io/movie-fetch-site/",
     },
-    // {
-    //   id: 4,
-    //   title: "Het Patel 4",
-    //   img: "https://images.pexels.com/photos/221433/pexels-photo-221433.jpeg",
-    //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-    // },
     // {
     //   id: 5,
     //   title: "Het Patel 5",
