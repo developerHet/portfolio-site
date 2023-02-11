@@ -2,10 +2,18 @@
 
 export const sliderItems = [
   {
+    id: 5,
+    title: "DevCamper-API",
+    img: "/imgs/DevCamper-API.png",
+    desc: "Develop production-level secure API and using Postman, generate documentation",
+    link: "https://devcamper-api.cyclic.app/",
+   },
+  {
     id: 4,
     title: "E-commerce",
     img: "/imgs/Ecommerce.png",
     desc: "Ecommerce site with attractive design along with backend.",
+    link: "https://hetecommerce.netlify.app/",
    },
     {
       id: 1,

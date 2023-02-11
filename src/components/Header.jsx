@@ -300,7 +300,7 @@ const Header = () => {
               </IconSpan>
             </Icon>
           </IconTwo>
-          <IconThree href="https://leetcode.com/het_patel/">
+          <IconThree href="https://leetcode.com/het2312/">
             <Icon bColor="#f89f1b" sColor="#EEEEEE">
               <ToolTip>LeetCode</ToolTip>
               <IconSpan>
