@@ -48,15 +48,17 @@ export const sliderItems = [
   export const timelineItems = [
     {
       id: 1,
-      title: "Freelancer",
-      date: "2021-Current",
-      desc:"I perform a freelancing job on Fiverr. I am a level one seller on that marketplace with 5-⭐ ratings.",
+      title: "Website Research Intern - Rashtriya Raksha University",
+      date: "Mar 2023 - Present",
+      link: "https://rru.ac.in/",
+      desc:"Manage, maintain and develop university website with IT team to ensure it's up-to-date, user-friendly and reflects the needs of students, faculty and staff.Develop and implement a website project that displays the menus of campus shops to create a smart campus.",
     },
     {
       id: 2,
-      title: "Movie Streaming App",
-      date: "2019-2020",
-      desc:"I worked as an intern in a movie streaming application.",
+      title: "Freelance Video Editor",
+      date: "Mar 2020 - Jun 2022",
+      link: "https://www.fiverr.com/users/hetpatel2312",
+      desc:"Created and edited videos for clients, providing creative input and timely delivery. Maintained a 5-star rating on Fiverr, achieving Level One Seller status and positive feedback",
     },
     // {
     //   id: 3,
