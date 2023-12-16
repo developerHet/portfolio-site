@@ -48,10 +48,10 @@ export const timelineItems = [
     title: "Software Engineer Intern - Kandle",
     date: "May 2023 - Aug 2023",
     link: "https://kandle.xyz/",
-    desc: "Building a dynamic web presence, I crafted a visually captivating company website using Next.js, showcasing its key features. Deeply immersed in large codebases, I mastered navigating and managing code, safely updating production systems through Git and GitHub. Passionate about user experience, I continuously improved app features, resolved bugs, and integrated new functionalities by forging API connections. Delving into both server-side and client-side rendering, I gained a profound understanding of how a service handles an HTTP request.",
+    desc: "Developed visually appealing company website utilizing Next.js, emphasizing key features. Gained proficiency in navigating and managing code in large codebases, with expertise in using the version control tool Git and GitHub for safe production system updates. Continuously improved app features, resolved bugs, and integrated new functionalities by establishing API connections to enhance the user experience. Explored server-side and client-side rendering, gained a high-level understanding of how a service handles an HTTP request.",
   },
   {
-    id: 1,
+    id: 2,
     title: "Website Research Intern - Rashtriya Raksha University",
     date: "Mar 2023 - May 2023",
     link: "https://rru.ac.in/",
