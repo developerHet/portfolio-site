@@ -25,7 +25,7 @@ export const sliderItems = [
     title: "ToDo List",
     img: "/imgs/ToDoListMain.png",
     desc: "User can keep track of the task to be done.",
-    link: "https://polar-chamber-40112.herokuapp.com/",
+    link: "https://todo-het.netlify.app/",
   },
   {
     id: 3,
