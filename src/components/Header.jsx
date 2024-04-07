@@ -90,7 +90,7 @@ const Name = styled.span`
 //  100% {
 //   opacity: 1;
 //   left: 100% ;
-// } 
+// }
 // `;
 
 // const DescSpan = styled.span`
@@ -263,7 +263,10 @@ const Header = () => {
       <Right>
         <ProfileBlob />
 
-        <IconOne href="https://www.linkedin.com/in/hetpatel2312/">
+        <IconOne
+          href="https://www.linkedin.com/in/hetpatel2312/"
+          target="_blank"
+        >
           <Icon bColor="#0072b1" sColor="#EEEEEE">
             <ToolTip>LinkedIn</ToolTip>
             <IconSpan>
@@ -272,7 +275,7 @@ const Header = () => {
           </Icon>
         </IconOne>
 
-        <IconTwo href="https://github.com/developerHet">
+        <IconTwo href="https://github.com/developerHet" target="_blank">
           <Icon bColor="#171515" sColor="#EEEEEE">
             <ToolTip>GitHub</ToolTip>
             <IconSpan>
@@ -280,7 +283,7 @@ const Header = () => {
             </IconSpan>
           </Icon>
         </IconTwo>
-        <IconThree href="https://leetcode.com/het2312/">
+        <IconThree href="https://leetcode.com/het2312/" target="_blank">
           <Icon bColor="#f89f1b" sColor="#EEEEEE">
             <ToolTip>LeetCode</ToolTip>
             <IconSpan>

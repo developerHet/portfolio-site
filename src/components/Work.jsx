@@ -192,7 +192,7 @@ const Work = () => {
                 <Dot />
                 <Date>{item.date}</Date>
                 <Content>
-                  <WorkTitle href={item.link}>{item.title}</WorkTitle>
+                  <WorkTitle href={item.link} target="_blank">{item.title}</WorkTitle>
                   <Desc>{item.desc}</Desc>
                 </Content>
               </Item>

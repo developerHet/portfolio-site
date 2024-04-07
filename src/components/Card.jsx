@@ -108,7 +108,7 @@ const Card = ({ item }) => {
       <Content>
         <Title>{item.title}</Title>
         <Desc>{item.desc}</Desc>
-        <Button href={item.link}>Click Here</Button>
+        <Button href={item.link} target="_blank">Click Here</Button>
       </Content>
     </Container>
   );
