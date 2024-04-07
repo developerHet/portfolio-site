@@ -82,16 +82,16 @@ const Name = styled.span`
 // margin: 10px 0px;
 // `;
 
-const typing = keyframes`
-0% {
-  opacity: 1;
-  left: 0;
-}
- 100% {
-  opacity: 1;
-  left: 100% ;
-} 
-`;
+// const typing = keyframes`
+// 0% {
+//   opacity: 1;
+//   left: 0;
+// }
+//  100% {
+//   opacity: 1;
+//   left: 100% ;
+// } 
+// `;
 
 // const DescSpan = styled.span`
 //   position: relative;
