@@ -4,7 +4,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import styled, { keyframes } from "styled-components";
 import LeetcodeLogo from "./assets/LeetcodeLogo";
-
+import { TypeAnimation } from "react-type-animation";
 
 const Container = styled.div`
   background-color: #303841;
@@ -16,45 +16,42 @@ const Container = styled.div`
   justify-content: space-around;
   align-items: center;
   color: #eeeeee;
-  @media only screen and (max-width:480px) { 
+  @media only screen and (max-width: 480px) {
     flex-direction: column;
     justify-content: center;
     text-align: center;
     //height: fit-content;
   }
-  @media only screen and (min-width: 481px) and (max-width:768px) { 
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
     flex-direction: column;
     justify-content: center;
     text-align: center;
     //height: fit-content;
   }
 
-  @media only screen and (min-width: 769px) and (max-width:1024px) {
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin-top: 50px;
   }
-  
 `;
 
-
 const Left = styled.div`
-
-@media only screen and (max-width:480px)  {
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
-  }
-  @media only screen and (min-width: 481px) and (max-width:768px)  {
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
-  }
-  @media only screen and (min-width: 769px) and (max-width:1024px) {
+  @media only screen and (max-width: 480px) {
     flex-direction: column;
-   justify-content: center;
-   text-align: center;
+    justify-content: center;
+    text-align: center;
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 `;
 
@@ -62,13 +59,13 @@ const Title = styled.h1`
   font-size: 4.5rem;
   line-height: 1;
   font-weight: 500;
-  @media only screen and (max-width:480px) { 
+  @media only screen and (max-width: 480px) {
     font-size: 3rem;
   }
-  @media only screen and (min-width: 481px) and (max-width:768px)  {
-   font-size: 3.5rem;
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 3.5rem;
   }
-  @media only screen and (min-width: 769px) and (max-width:1024px) {
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
     font-size: 4rem;
   }
 `;
@@ -77,13 +74,13 @@ const Name = styled.span`
   color: #00adb5;
 `;
 
-const Desc = styled.h3`
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  font-weight: 400;
-  padding-left: 3px;
-  margin: 10px 0px;
-`;
+// const Desc = styled.h3`
+// font-size: 1.25rem;
+// line-height: 1.75rem;
+// font-weight: 400;
+// padding-left: 3px;
+// margin: 10px 0px;
+// `;
 
 const typing = keyframes`
 0% {
@@ -96,47 +93,20 @@ const typing = keyframes`
 } 
 `;
 
-const DescSpan = styled.span`
-  position: relative;
-  
-  &::after {
-    content: "";
-    background: #303841;
-    //left: 0;
-    opacity: 0;
-    position: absolute;
-    height: 121%;
-    width: 100%;
-    border-left: 2px solid #eeeeee;
-    animation: ${typing} 6s steps(28);
-  }
-`;
+// const DescSpan = styled.span`
+//   position: relative;
 
-// const ButtonWrap = styled.div`
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   width: fit-content;
-//   height: fit-content;
-//   background: #00adb5;
-//   color: #303841;
-//   padding: 8px 10px;
-//   border-radius: 10px;
-//   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-//   transition: 0.2s;
-//   &:hover {
-//     background: none;
-//     color: #eeeeee;
-//     border: 1px solid #00adb5;
+//   &::after {
+//     content: "";
+//     background: #303841;
+//     //left: 0;
+//     opacity: 0;
+//     position: absolute;
+//     height: 121%;
+//     width: 100%;
+//     border-left: 2px solid #eeeeee;
+//     animation: ${typing} 6s steps(28);
 //   }
-// `;
-
-// const CVIcon = styled.div`
-// margin-right: 10px;
-// `;
-
-// const CVTitle = styled.div`
-// font-weight: 700;
 // `;
 
 const Right = styled.div`
@@ -264,52 +234,62 @@ const Github = styled(GitHubIcon)`
 const Header = () => {
   return (
     <Container>
-      {/* <Wrapper> */}
-        <Left>
-          <Title>
-            Hi There, <br /> I'm <Name>Het Patel</Name>
-          </Title>
-          <Desc>
+      <Left>
+        <Title>
+          Hi There, <br /> I'm <Name>Het Patel</Name>
+        </Title>
+        <TypeAnimation
+          sequence={[
+            1000,
+            "I am Software developer !!",
+            1500,
+            "I am Software Developer !!",
+          ]}
+          wrapper="span"
+          speed={50}
+          style={{
+            fontSize: "1.25rem",
+            lineHeight: "1.75rem",
+            fontWeight: 400,
+            paddingLeft: "3px",
+            margin: "10px 0px",
+          }}
+          repeat={0}
+        />
+        {/* <Desc>
             <DescSpan>I am Full Stack Developer !!</DescSpan>
-          </Desc>
-          {/* <ButtonWrap>
-            <CVIcon>
-              <DescriptionIcon />
-            </CVIcon>
-            <CVTitle>Download CV</CVTitle>
-          </ButtonWrap> */}
-        </Left>
-        <Right>
-          <ProfileBlob />
-          {/* <IconContainer> */}
-          
-          <IconOne href='https://www.linkedin.com/in/hetpatel2312/'>
-            <Icon bColor="#0072b1" sColor="#EEEEEE">
-              <ToolTip>LinkedIn</ToolTip>
-              <IconSpan>
-                <LinkedIn />
-              </IconSpan>
-            </Icon>
-          </IconOne>
-          
-          <IconTwo href='https://github.com/developerHet'>
-            <Icon bColor="#171515" sColor="#EEEEEE">
-              <ToolTip>GitHub</ToolTip>
-              <IconSpan>
-                <Github />
-              </IconSpan>
-            </Icon>
-          </IconTwo>
-          <IconThree href="https://leetcode.com/het2312/">
-            <Icon bColor="#f89f1b" sColor="#EEEEEE">
-              <ToolTip>LeetCode</ToolTip>
-              <IconSpan>
-                <LeetcodeLogo />
-              </IconSpan>
-            </Icon>
-          </IconThree>
-          {/* </IconContainer> */}
-        </Right>
+          </Desc> */}
+      </Left>
+      <Right>
+        <ProfileBlob />
+
+        <IconOne href="https://www.linkedin.com/in/hetpatel2312/">
+          <Icon bColor="#0072b1" sColor="#EEEEEE">
+            <ToolTip>LinkedIn</ToolTip>
+            <IconSpan>
+              <LinkedIn />
+            </IconSpan>
+          </Icon>
+        </IconOne>
+
+        <IconTwo href="https://github.com/developerHet">
+          <Icon bColor="#171515" sColor="#EEEEEE">
+            <ToolTip>GitHub</ToolTip>
+            <IconSpan>
+              <Github />
+            </IconSpan>
+          </Icon>
+        </IconTwo>
+        <IconThree href="https://leetcode.com/het2312/">
+          <Icon bColor="#f89f1b" sColor="#EEEEEE">
+            <ToolTip>LeetCode</ToolTip>
+            <IconSpan>
+              <LeetcodeLogo />
+            </IconSpan>
+          </Icon>
+        </IconThree>
+        {/* </IconContainer> */}
+      </Right>
       {/* </Wrapper> */}
     </Container>
   );

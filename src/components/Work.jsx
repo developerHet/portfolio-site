@@ -139,6 +139,8 @@ const Content = styled.div`
   padding: 30px;
   border-radius: 5px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
   @media only screen and (max-width: 480px) {
     padding: 15px;
   }
