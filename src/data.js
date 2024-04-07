@@ -1,10 +1,10 @@
 export const sliderItems = [
   {
-    id: 6,
+    id: 7,
     title: "React Library",
     img: "/imgs/RecatLibrary.png",
     desc: "Liven up your React projects with social media-style reaction animations!",
-    link: "https://discord-clone-mu-three.vercel.app/",
+    link: "https://www.npmjs.com/package/reaction-animation",
   },
   {
     id: 6,
